@@ -1,5 +1,7 @@
 # Airlines-System
 A University CSC248 java data structure project
+Author : 
+### Iman Irfan , Wan Umar Farid
 
 # INTRODUCTION
 
