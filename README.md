@@ -31,6 +31,7 @@ The scope of the Airlines booking management project is for users that wanted to
 # CLASS
 
 *Note: Some new methods and attributes will be added according to the suitable classes*
+    
     1) User
 
 Attributes:
