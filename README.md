@@ -1,11 +1,13 @@
 # Airlines-System
 A University CSC248 project
 
-INTRODUCTION
+#INTRODUCTION
+
 Airlines booking management system is a program which is developed to retrieve customers’ details, flight booked which will be store into linked list array, history of overall booked ticket flight and the program also will calculate overall income of the airlines also each company’s profit or money earned. In this program management team directly collects all the information of the customers regarding the flight ticket like flight name, id, destination, payment method, customers’ details, list of available and unavailable flight, and the description of the flight tickets. Management team can analyze the the summary of all flight tickets easily within no time with this information. Customers can search the and find their preferred tickets in the system easily. 
 Depending on the result found related to flight tickets, customers can easily choose which available tickets suits to their time and date. When new airlines company wanted to be part of the system, team management can add the related information in the database which they can analyze without any waste of time.
 
-OBJECTIVE
+#OBJECTIVE
+
 The main objective of this Airlines booking management program is to save time of both customers and the management team. To provide a quick exploration of all tickets. This program provides a search option to the customers where they can get the result very quickly depends on which part that wanted to be searched by selecting the suitable date, time and company planes of the ticket. For example, results of prescribed ticket will be displayed for a ticket that available based on the search. 
 Also, several basic algorithms applied: 
     • Searching algorithm to find available tickets information
@@ -18,13 +20,16 @@ Also, several basic algorithms applied:
     • Print out and saves every receipt generated
     • Stores customers and list of flight tickets details into a text file
 
-SCOPE
+#SCOPE
+
 The scope of the Airlines booking management project is for users that wanted to buy online airplane tickets and save their time rather than must buy tickets physically. This is to notify the management team about both available and unavailable tickets in the system. By these both the management and customers’ time can be saved.
     • Stores all the details of the customers and the details of the tickets and prescribed tickets with date, time, flight, gate will be stored in the text file.
     • To provide customers to take the information of the tickets directly and casually choose tickets.
     • Customers can register by entering the information needed for the ticket. 
     • Management team can add ticket details, search any flight company if needed to add anything.
-CLASS
+
+#CLASS
+
 *Note: Some new methods and attributes will be added according to the suitable classes*
     1) User
 
