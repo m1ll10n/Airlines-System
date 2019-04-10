@@ -55,9 +55,11 @@ Password
 String pass
 
 Methods:
+
     • ReadFile() – This function will read all existing users that has been registered in the system and will assign the data into a LinkedList array.
     • GetDetails() – This function will retrieve the specific customer’s information into the program and will be output to the user whenever this function is been called.
 
+    
     2) Customer
 
 Attributes:
@@ -76,6 +78,7 @@ Methods:
 
 
 
+    
     3) Admin
 
 Attributes:
