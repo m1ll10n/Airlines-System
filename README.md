@@ -1,5 +1,5 @@
 # Airlines-System
-A University CSC248 project
+A University CSC248 java data structure project
 
 # INTRODUCTION
 
