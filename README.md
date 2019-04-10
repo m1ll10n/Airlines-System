@@ -161,6 +161,7 @@ Linked List
 LinkedList list
 
 Methods:
+
     • isEmpty() – To return a boolean value depending on the content of the list.
     • size() – To get the size of the queue list.
     • enqueue() – To add element into queue.
