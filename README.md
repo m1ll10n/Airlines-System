@@ -10,6 +10,7 @@ Depending on the result found related to flight tickets, customers can easily ch
 
 The main objective of this Airlines booking management program is to save time of both customers and the management team. To provide a quick exploration of all tickets. This program provides a search option to the customers where they can get the result very quickly depends on which part that wanted to be searched by selecting the suitable date, time and company planes of the ticket. For example, results of prescribed ticket will be displayed for a ticket that available based on the search. 
 Also, several basic algorithms applied: 
+
     • Searching algorithm to find available tickets information
     • Show the highest and lowest flight airlines count that has been recorded
     • Count the total users in that registered in the system.
@@ -23,6 +24,7 @@ Also, several basic algorithms applied:
 # SCOPE
 
 The scope of the Airlines booking management project is for users that wanted to buy online airplane tickets and save their time rather than must buy tickets physically. This is to notify the management team about both available and unavailable tickets in the system. By these both the management and customers’ time can be saved.
+
     • Stores all the details of the customers and the details of the tickets and prescribed tickets with date, time, flight, gate will be stored in the text file.
     • To provide customers to take the information of the tickets directly and casually choose tickets.
     • Customers can register by entering the information needed for the ticket. 
@@ -65,6 +67,7 @@ History
 Obj historyPurch
 
 Methods:
+
     • Register() – Prompt users all necessary information that required and this function will then store it in the LinkedList array. It will also store the data into a text file.
     • ChangePass() – This function will override the old password for the user and write the new one as the password for the specific account in the array.
     • Purchase() – Any tickets that has been newly purchased by the user will call this function. It will also copy the user information to history array and will add the ticket to the flight that they had purchased.
@@ -84,6 +87,7 @@ Salary
 Double salary
 
 Methods:
+
     • AddFlight() – To add a new flight with relevant details (flight number, ticket price, e.t.c.).
     • ViewIncome() – To view each income from flight companies.
 
@@ -108,6 +112,7 @@ Company Name
 String company
 
 Methods:
+
     • ReadFile() – This function will read all existing available tickets that has been registered in the system and will assign the data into a LinkedList array.
     • AddFlight() – Add any new flight tickets into the system that will be sell to the users, it will also add the data into a text file until it becomes unavailable for the users.
     • SearchFlight() – Will search specific tickets that the users wanted in the system. This function will prompt the user for the company name, destination, date and time.
@@ -140,6 +145,7 @@ Customer
 Customer cust
 
 Methods:
+
     • insertFront() – To insert element at the front of linked list.
     • insertBack() – To insert element at the end of linked list.
     • removeFront() – To remove data from the first node of linked list.
