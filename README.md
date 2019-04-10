@@ -34,7 +34,7 @@ The scope of the Airlines booking management project is for users that wanted to
 
 *Note: Some new methods and attributes will be added according to the suitable classes*
     
-    1) User
+###    1) User
 
 Attributes:
 Name
@@ -60,7 +60,7 @@ Methods:
     • GetDetails() – This function will retrieve the specific customer’s information into the program and will be output.
 
     
-    2) Customer
+###    2) Customer
 
 Attributes:
 Flight
@@ -76,10 +76,8 @@ Methods:
     • CheckHistoryPurchase() – This function will show all of the user’s history purchased that has been made in the system for the specified account.
     • CheckCitizenship() – Function that will return true and set a discount according to flight’s company policy for their specific citizenship.
 
-
-
     
-    3) Admin
+###    3) Admin
 
 Attributes:
 Qualification
@@ -94,7 +92,7 @@ Methods:
     • AddFlight() – To add a new flight with relevant details (flight number, ticket price, e.t.c.).
     • ViewIncome() – To view each income from flight companies.
 
-    4) Flight
+###    4) Flight
 
 Attributes:
 Flight Number
@@ -124,10 +122,7 @@ Methods:
     • CalculateTotalPrice() – Calculates total that is required in this country and return its value to the system that will add based on their ticket price.
 
 
-
-
-
-    5) Node
+###    5) Node
 
 Attributes:
 Customer
@@ -135,7 +130,7 @@ Customer cust
 Node
 Node next
 
-    6) LinkedList
+###    6) LinkedList
 
 Attributes:
 First Node
@@ -159,7 +154,7 @@ Methods:
     • getNext() – To get data of the next node based on the current node.
     • size() – To get the size of the linked list.
 
-    7) Queue
+###    7) Queue
 
 Attributes:
 Linked List
