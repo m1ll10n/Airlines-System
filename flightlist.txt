@@ -1,0 +1,4 @@
+AA12345;800.50;120;Istanbul;17 November 2019
+AB12345;500.00;120;United Kingdom;02 December 2019
+AC12345;400.20;150;Australia;24 December 2019
+AD12345;700.00;300;Istanbul;29 December 2019
