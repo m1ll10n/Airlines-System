@@ -8,7 +8,6 @@ public class LinkedList {
     private Node last;
     private Node current;
     private String name; // to label the list
-    private User data;
 
     public LinkedList(String s){
 

@@ -5,15 +5,18 @@ import java.util.*;
 public class Customer extends User {
 
     private String name;
+    private Queue flightHistory;
 
     public Customer() {
         super();
+        flightHistory = new Queue();
         this.name = "null";
     }
 
     public Customer(String uName, String password, String name) {
         super(uName, password);
         this.name = name;
+        flightHistory = new Queue();
     }
 
     public String getName() { return this.name; }

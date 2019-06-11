@@ -27,6 +27,7 @@ public class Main {
         do {
             do {
                 responseMenu = currentUser.menu();
+                if
             }
             while (!(responseMenu == 4));
 
