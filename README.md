@@ -9,7 +9,7 @@ Depending on the result found related to flight tickets, customers can easily ch
 
 # OBJECTIVE
 
-The main objective of this Airlines booking management program is to save time of both customers and the management team. To provide a quick exploration of all tickets. This program provides a search option to the customers where they can get the result very quickly depends on which part that wanted to be searched by selecting the suitable date, time and company planes of the ticket. For example, results of prescribed ticket will be displayed for a ticket that available based on the search. 
+The main objective of this Airlines booking management program is to save time of both customers and the management team. To provide a quick exploration of all tickets. This program provides a search option to the customers where they can get the result very quickly depends on which part that wanted to be searched by selecting the suitable date, time and company planes of the ticket. For example, results of prescribed ticket will be displayed for a ticket that available based on the search. 
 Also, several basic algorithms applied: 
 
     • Searching algorithm to find available tickets information
