@@ -5,3 +5,4 @@ public class EmptyListException extends RuntimeException{
         super("The " + name + " is empty");
     }
 }
+

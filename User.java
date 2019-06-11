@@ -47,7 +47,23 @@ public abstract class User {
         return response;
     }
 
-    public abstract void menu();
+    public User splashRespond(int response, LinkedList users) {
+
+        User currentUser;
+
+        if (response == 1)
+            return currentUser = users.logIn(users);
+        else if (response == 2) {
+            users.insertAtBack(users.register());
+            return currentUser = users.logIn(users);
+        }
+        else {
+            System.out.println("Bye bye!");
+            return currentUser = new Customer(); // TO REMOVE ERROR IN METHOD CALL
+        }
+    }
+
+    public abstract int menu();
 
     public String toString() {
         return (getuName() + " " + getPassword());

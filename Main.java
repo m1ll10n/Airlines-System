@@ -16,24 +16,23 @@ public class Main {
         users.insertAtBack(cust);
         users.insertAtBack(admin);
 
-        // START SPLASH SCREEN
+        // START MENU SCREEN
+        int responseMenu;
         int response = admin.splashScreen();
- 
-        if (response == 1)
-            currentUser = users.logIn(users);
-        else if (response == 2) {
-            users.insertAtBack(users.register());
-            currentUser = users.logIn(users);
-        }
-        else {
-            System.out.println("Bye bye!");
-            currentUser = new Customer(); // TO REMOVE ERROR IN METHOD CALL
-            System.exit(0);
-        }
-        // END SPLASH SCREEN
+        currentUser = admin.splashRespond(response, users);
 
-        //START MENU PAGE
-        currentUser.menu();
-        //END MENU PAGE
+        if (response == 3)
+            System.exit(0);
+
+        do {
+            do {
+                responseMenu = currentUser.menu();
+            }
+            while (!(responseMenu == 4));
+
+            currentUser = admin.splashRespond(admin.splashScreen(), users);
+        }
+        while (!(currentUser.getuName()).equalsIgnoreCase("null"));
+        // END MENU SCREEN
     }
 }

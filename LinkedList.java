@@ -1,4 +1,3 @@
-
 package com.company;
 
 import java.util.*;
@@ -173,8 +172,7 @@ public class LinkedList {
         String regName = in.nextLine();
 
         User regCust = new Customer(regUsername, regPassword, regName);
-        System.out.print("Successfully registered!");
+        System.out.print("Successfully registered!\n");
         return regCust;
     }
 }
-
